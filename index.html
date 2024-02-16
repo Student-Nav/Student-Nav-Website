@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sutdent Life Navigation</title>
+    <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="./assets/styles/home.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- Logo -->
+            <div id="nav-logo-container">
+                <a href="#">
+                    <img src="./assets/images/logo.svg" alt="Student Nav">
+                </a>
+            </div>
+
+            <!-- Button to open mobile nav popover -->
+            <div id="nav-open-mobile-container">
+                <button popovertarget="mobile-nav-popover">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Desktop nav buttons -->
+            <div id="nav-buttons-container">
+                <a href="/">
+                    Home
+                </a>
+
+                <a href="/">
+                    Events
+                </a>
+
+                <a href="/">
+                    Student Discounts
+                </a>
+
+                <a href="/">
+                    Public Transport
+                </a>
+
+                <a href="/">
+                    University Resources
+                </a>
+            </div>
+        </nav>
+
+        <!-- Popover for mobile nav -->
+        <div popover id="mobile-nav-popover">
+            <a href="/">
+                Home
+            </a>
+
+            <a href="/">
+                Events
+            </a>
+
+            <a href="/">
+                Student Discounts
+            </a>
+
+            <a href="/">
+                Public Transport
+            </a>
+
+            <a href="/">
+                University Resources
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div id="home-hero-left-container">
+            <div>
+                <h1 id="home-hero-left-title">
+                    <span>Navigate your new</span>
+                    <span>student life</span>
+                </h1>
+
+                <p id="home-hero-left-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <div id="home-hero-left-buttons-container">
+                    <div id="home-hero-left-buttons-primary">
+                        <a href="#">
+                            Start
+                        </a>
+                    </div>
+
+                    <div id="home-hero-left-buttons-secondary">
+                        <a href="#">
+                            F.A.Q
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="home-hero-right-container">
+            <img src="https://placehold.co/2100" alt="">
+        </div>
+    </main>
+</body>
+
+</html>
