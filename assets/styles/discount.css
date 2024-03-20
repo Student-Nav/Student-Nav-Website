@@ -1,0 +1,17 @@
+#home-hero-right-container-discount-image>img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#home-hero-right-container-trafford-image>img {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+#home-hero-right-container-arndale-image>img {
+  
+
+}
