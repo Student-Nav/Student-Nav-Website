@@ -1,19 +1,239 @@
-#home-hero-right-container-discount-image>img {
+#discounts-hero-left-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    max-width: 80rem;
+    text-align: center;
+}
+
+#discounts-hero-left-container>div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#discounts-hero-left-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+#discounts-hero-left-title>span:nth-child(1) {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
-#home-hero-right-container-trafford-image>img {
-  float: left;
-  width: 50%;
-  padding: 10px;
-
+#discounts-hero-left-title>span:nth-child(2) {
+    display: block;
+    color: var(--palette-blue);
 }
-#home-hero-right-container-arndale-image>img {
-  float: right;
-  width: 50%;
-  padding: 10px;
 
+#discounts-hero-left-description {
+    margin-top: 0.75rem;
+    max-width: 28rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--palette-grey);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#discounts-hero-left-buttons-container {
+    margin-top: 2.5rem;
+}
+
+#discounts-hero-left-buttons-primary {
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+#discounts-hero-left-buttons-primary>a {
+    display: flex;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--palette-blue);
+}
+
+#discounts-hero-left-buttons-primary>a:hover {
+    background-color: var(--palette-blue-hover);
+}
+
+#discounts-hero-left-buttons-secondary {
+    margin-top: 0.75rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+#discounts-hero-left-buttons-secondary>a {
+    display: flex;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--palette-blue);
+    background-color: white;
+}
+
+#discounts-hero-left-buttons-secondary>a:hover {
+    background-color: var(--palette-grey-hover);
+}
+
+#discounts-hero-right-container {
+    position: relative;
+    width: 100%;
+    height: 16rem;
+}
+
+#discounts-hero-right-container>img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@media (min-width: 640px) {
+    #discounts-hero-left-container>div {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #discounts-hero-left-title {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    #discounts-hero-left-description {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    #discounts-hero-left-buttons-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #discounts-hero-left-buttons-secondary {
+        margin-top: 0;
+        margin-left: 0.75rem;
+    }
+
+    #discounts-hero-right-container {
+        height: 18rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #discounts-hero-left-title {
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+
+    #discounts-hero-left-description {
+        margin-top: 1.25rem;
+        max-width: 48rem;
+    }
+
+    #discounts-hero-left-buttons-primary>a {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    #discounts-hero-left-buttons-secondary>a {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    #discounts-hero-right-container {
+        height: 24rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        position: relative;
+    }
+
+    #discounts-hero-left-container {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        text-align: left;
+    }
+
+    #discounts-hero-left-container>div {
+        width: 50%;
+    }
+
+    #discounts-hero-left-title {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    #discounts-hero-left-buttons-container {
+        justify-content: flex-start;
+    }
+
+    #discounts-hero-right-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    #discounts-hero-left-container>div {
+        padding-right: 4rem;
+    }
+
+    #discounts-hero-left-title {
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+
+    #discounts-hero-left-title>span:nth-child(1) {
+        display: inline;
+    }
+
+    #discounts-hero-left-title>span:nth-child(2) {
+        display: inline;
+    }
 }
