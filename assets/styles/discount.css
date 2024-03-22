@@ -12,6 +12,8 @@
 
 }
 #home-hero-right-container-arndale-image>img {
-  
+  float: right;
+  width: 50%;
+  padding: 10px;
 
 }
